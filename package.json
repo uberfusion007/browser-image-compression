@@ -1,6 +1,6 @@
 {
-  "name": "browser-image-compression",
-  "version": "2.0.2",
+  "name": "@uberfusion007/browser-image-compression",
+  "version": "2.0.3",
   "description": "Compress images in the browser",
   "main": "dist/browser-image-compression.js",
   "module": "dist/browser-image-compression.mjs",
@@ -14,17 +14,19 @@
     "test": "cross-env NODE_ENV=test nyc mocha",
     "posttest": "npm run coverage-badges",
     "test:watch": "cross-env NODE_ENV=test nyc mocha -w",
-    "prepublishOnly": "npm test && npm run build",
     "coverage-badges": "make-coverage-badge",
     "commit": "cz"
   },
   "homepage": "https://github.com/Donaldcwl/browser-image-compression#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Donaldcwl/browser-image-compression"
+    "url": "git+https://github.com/uberfusion007/browser-image-compression"
   },
   "bugs": {
     "url": "https://github.com/Donaldcwl/browser-image-compression/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "image compression",
