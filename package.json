@@ -1,6 +1,6 @@
 {
   "name": "@uberfusion007/browser-image-compression",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Compress images in the browser",
   "main": "dist/browser-image-compression.js",
   "module": "dist/browser-image-compression.mjs",
